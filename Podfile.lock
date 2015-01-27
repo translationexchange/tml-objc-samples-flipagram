@@ -1,0 +1,20 @@
+PODS:
+  - MBProgressHUD (0.9)
+  - MPColorTools (1.6.1)
+  - Tml (0.2.1):
+    - MBProgressHUD (~> 0.9)
+    - MPColorTools (~> 1.6)
+
+DEPENDENCIES:
+  - Tml (from `/Users/michael/Projects/Tr8n/tml-objc/Tml.podspec`)
+
+EXTERNAL SOURCES:
+  Tml:
+    :path: /Users/michael/Projects/Tr8n/tml-objc/Tml.podspec
+
+SPEC CHECKSUMS:
+  MBProgressHUD: 2038dbcf3dce73215abed6001657043d53aa79a8
+  MPColorTools: d59184c7ce8c28926f93d15565b1dce586376191
+  Tml: 8be7e6c053a931b4410c4db66b4e957039adbd5f
+
+COCOAPODS: 0.35.0

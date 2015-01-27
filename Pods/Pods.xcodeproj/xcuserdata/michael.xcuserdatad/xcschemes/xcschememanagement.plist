@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>Pods-Flipagram-MBProgressHUD.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-Flipagram-MPColorTools.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-Flipagram-Tml.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-Flipagram.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>488CE400FA5CBC5B11F7EB80</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>53269C475E98651E4B0C276C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>69BB20DDE7645B09A73EC7B6</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>D3E8F7995C7BA2638D6E13FB</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

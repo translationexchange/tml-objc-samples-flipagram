@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>7BB40886-560C-4C85-A272-A9ACCB994102</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>99B6B8D127C7E87753F5F66F72C80311FF7C465B</key>
+		<string>github.com:translationexchange/tml-objc.git</string>
+	</dict>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>99B6B8D127C7E87753F5F66F72C80311FF7C465B</key>
+		<string>tml-objc/</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>github.com:translationexchange/tml-objc.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>99B6B8D127C7E87753F5F66F72C80311FF7C465B</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>99B6B8D127C7E87753F5F66F72C80311FF7C465B</string>
+			<key>IDESourceControlWCCName</key>
+			<string>tml-objc</string>
+		</dict>
+	</array>
+</dict>
+</plist>

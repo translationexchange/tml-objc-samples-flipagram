@@ -1,0 +1,635 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0EE125D4BDFFFFBF09C5DC32 /* libPods-Flipagram.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EC33F6309449074314AE6CF7 /* libPods-Flipagram.a */; };
+		4C0405261A7339D9000538FF /* back.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C0405251A7339D9000538FF /* back.png */; };
+		4C0405291A73489E000538FF /* MomentsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C0405281A73489E000538FF /* MomentsViewController.m */; };
+		4C04052B1A734AD4000538FF /* close.gif in Resources */ = {isa = PBXBuildFile; fileRef = 4C04052A1A734AD4000538FF /* close.gif */; };
+		4CBCDE041A723C58001EC77D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CBCDE031A723C58001EC77D /* main.m */; };
+		4CBCDE071A723C58001EC77D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CBCDE061A723C58001EC77D /* AppDelegate.m */; };
+		4CBCDE0A1A723C58001EC77D /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CBCDE091A723C58001EC77D /* HomeViewController.m */; };
+		4CBCDE0D1A723C58001EC77D /* ExploreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CBCDE0C1A723C58001EC77D /* ExploreViewController.m */; };
+		4CBCDE101A723C58001EC77D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CBCDE0E1A723C58001EC77D /* Main.storyboard */; };
+		4CBCDE121A723C58001EC77D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CBCDE111A723C58001EC77D /* Images.xcassets */; };
+		4CBCDE151A723C58001EC77D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4CBCDE131A723C58001EC77D /* LaunchScreen.xib */; };
+		4CBCDE211A723C58001EC77D /* FlipagramTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CBCDE201A723C58001EC77D /* FlipagramTests.m */; };
+		4CBCDE301A724659001EC77D /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CBCDE2D1A724659001EC77D /* logo.png */; };
+		4CBCDE441A72D5CD001EC77D /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 4CBCDE431A72D5CD001EC77D /* Podfile */; };
+		4CBCDE471A72D96A001EC77D /* FGTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CBCDE461A72D96A001EC77D /* FGTabBarController.m */; };
+		4CBCDE5B1A72E975001EC77D /* images.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4CBCDE5A1A72E975001EC77D /* images.jpg */; };
+		4CBCDE671A72EA28001EC77D /* arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CBCDE5C1A72EA28001EC77D /* arrow.png */; };
+		4CBCDE681A72EA28001EC77D /* camera.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CBCDE5D1A72EA28001EC77D /* camera.png */; };
+		4CBCDE691A72EA28001EC77D /* close.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CBCDE5E1A72EA28001EC77D /* close.png */; };
+		4CBCDE6A1A72EA28001EC77D /* facebook.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CBCDE5F1A72EA28001EC77D /* facebook.png */; };
+		4CBCDE6B1A72EA28001EC77D /* flipagram-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CBCDE601A72EA28001EC77D /* flipagram-logo.png */; };
+		4CBCDE6C1A72EA28001EC77D /* gear.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CBCDE611A72EA28001EC77D /* gear.png */; };
+		4CBCDE6D1A72EA28001EC77D /* lock.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CBCDE621A72EA28001EC77D /* lock.png */; };
+		4CBCDE6E1A72EA28001EC77D /* main-img.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CBCDE631A72EA28001EC77D /* main-img.png */; };
+		4CBCDE6F1A72EA28001EC77D /* refresh.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CBCDE641A72EA28001EC77D /* refresh.png */; };
+		4CBCDE701A72EA28001EC77D /* search.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CBCDE651A72EA28001EC77D /* search.png */; };
+		4CBCDE711A72EA28001EC77D /* user.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CBCDE661A72EA28001EC77D /* user.png */; };
+		4CBCDE731A72F41F001EC77D /* intro.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CBCDE721A72F41F001EC77D /* intro.png */; };
+		4CBCDE761A72F709001EC77D /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CBCDE751A72F709001EC77D /* ProfileViewController.m */; };
+		4CBCDE7C1A72FD9B001EC77D /* tabs5.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CBCDE771A72FD9B001EC77D /* tabs5.png */; };
+		4CBCDE7D1A72FD9B001EC77D /* tabs4.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CBCDE781A72FD9B001EC77D /* tabs4.png */; };
+		4CBCDE7E1A72FD9B001EC77D /* tabs2.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CBCDE791A72FD9B001EC77D /* tabs2.png */; };
+		4CBCDE7F1A72FD9B001EC77D /* tabs3.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CBCDE7A1A72FD9B001EC77D /* tabs3.png */; };
+		4CBCDE801A72FD9B001EC77D /* tabs1.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CBCDE7B1A72FD9B001EC77D /* tabs1.png */; };
+		4CBCDE831A730665001EC77D /* NotificationsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CBCDE821A730665001EC77D /* NotificationsViewController.m */; };
+		4CBCDE861A731AD8001EC77D /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CBCDE851A731AD8001EC77D /* SettingsViewController.m */; };
+		4CBCDE891A732576001EC77D /* ApplicationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CBCDE881A732576001EC77D /* ApplicationViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4CBCDE1B1A723C58001EC77D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4CBCDDF61A723C57001EC77D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4CBCDDFD1A723C57001EC77D;
+			remoteInfo = Flipagram;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		395AF141B6E0B6197DBB0D62 /* Pods-Flipagram.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Flipagram.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Flipagram/Pods-Flipagram.debug.xcconfig"; sourceTree = "<group>"; };
+		4C0405251A7339D9000538FF /* back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back.png; sourceTree = "<group>"; };
+		4C0405271A73489E000538FF /* MomentsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MomentsViewController.h; sourceTree = "<group>"; };
+		4C0405281A73489E000538FF /* MomentsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MomentsViewController.m; sourceTree = "<group>"; };
+		4C04052A1A734AD4000538FF /* close.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = close.gif; sourceTree = "<group>"; };
+		4CBCDDFE1A723C57001EC77D /* Flipagram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Flipagram.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CBCDE021A723C58001EC77D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4CBCDE031A723C58001EC77D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4CBCDE051A723C58001EC77D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4CBCDE061A723C58001EC77D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4CBCDE081A723C58001EC77D /* HomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		4CBCDE091A723C58001EC77D /* HomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		4CBCDE0B1A723C58001EC77D /* ExploreViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExploreViewController.h; sourceTree = "<group>"; };
+		4CBCDE0C1A723C58001EC77D /* ExploreViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExploreViewController.m; sourceTree = "<group>"; };
+		4CBCDE0F1A723C58001EC77D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4CBCDE111A723C58001EC77D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		4CBCDE141A723C58001EC77D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		4CBCDE1A1A723C58001EC77D /* FlipagramTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlipagramTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CBCDE1F1A723C58001EC77D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4CBCDE201A723C58001EC77D /* FlipagramTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlipagramTests.m; sourceTree = "<group>"; };
+		4CBCDE2D1A724659001EC77D /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		4CBCDE431A72D5CD001EC77D /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		4CBCDE451A72D96A001EC77D /* FGTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FGTabBarController.h; sourceTree = "<group>"; };
+		4CBCDE461A72D96A001EC77D /* FGTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FGTabBarController.m; sourceTree = "<group>"; };
+		4CBCDE5A1A72E975001EC77D /* images.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = images.jpg; sourceTree = "<group>"; };
+		4CBCDE5C1A72EA28001EC77D /* arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrow.png; sourceTree = "<group>"; };
+		4CBCDE5D1A72EA28001EC77D /* camera.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = camera.png; sourceTree = "<group>"; };
+		4CBCDE5E1A72EA28001EC77D /* close.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = close.png; sourceTree = "<group>"; };
+		4CBCDE5F1A72EA28001EC77D /* facebook.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = facebook.png; sourceTree = "<group>"; };
+		4CBCDE601A72EA28001EC77D /* flipagram-logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "flipagram-logo.png"; sourceTree = "<group>"; };
+		4CBCDE611A72EA28001EC77D /* gear.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gear.png; sourceTree = "<group>"; };
+		4CBCDE621A72EA28001EC77D /* lock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lock.png; sourceTree = "<group>"; };
+		4CBCDE631A72EA28001EC77D /* main-img.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "main-img.png"; sourceTree = "<group>"; };
+		4CBCDE641A72EA28001EC77D /* refresh.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = refresh.png; sourceTree = "<group>"; };
+		4CBCDE651A72EA28001EC77D /* search.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = search.png; sourceTree = "<group>"; };
+		4CBCDE661A72EA28001EC77D /* user.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = user.png; sourceTree = "<group>"; };
+		4CBCDE721A72F41F001EC77D /* intro.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = intro.png; sourceTree = "<group>"; };
+		4CBCDE741A72F709001EC77D /* ProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileViewController.h; sourceTree = "<group>"; };
+		4CBCDE751A72F709001EC77D /* ProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileViewController.m; sourceTree = "<group>"; };
+		4CBCDE771A72FD9B001EC77D /* tabs5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tabs5.png; sourceTree = "<group>"; };
+		4CBCDE781A72FD9B001EC77D /* tabs4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tabs4.png; sourceTree = "<group>"; };
+		4CBCDE791A72FD9B001EC77D /* tabs2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tabs2.png; sourceTree = "<group>"; };
+		4CBCDE7A1A72FD9B001EC77D /* tabs3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tabs3.png; sourceTree = "<group>"; };
+		4CBCDE7B1A72FD9B001EC77D /* tabs1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tabs1.png; sourceTree = "<group>"; };
+		4CBCDE811A730665001EC77D /* NotificationsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NotificationsViewController.h; sourceTree = "<group>"; };
+		4CBCDE821A730665001EC77D /* NotificationsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NotificationsViewController.m; sourceTree = "<group>"; };
+		4CBCDE841A731AD8001EC77D /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
+		4CBCDE851A731AD8001EC77D /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
+		4CBCDE871A732576001EC77D /* ApplicationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ApplicationViewController.h; sourceTree = "<group>"; };
+		4CBCDE881A732576001EC77D /* ApplicationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ApplicationViewController.m; sourceTree = "<group>"; };
+		DF0392F7CF6A8BC647013FED /* Pods-Flipagram.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Flipagram.release.xcconfig"; path = "Pods/Target Support Files/Pods-Flipagram/Pods-Flipagram.release.xcconfig"; sourceTree = "<group>"; };
+		EC33F6309449074314AE6CF7 /* libPods-Flipagram.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Flipagram.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4CBCDDFB1A723C57001EC77D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0EE125D4BDFFFFBF09C5DC32 /* libPods-Flipagram.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CBCDE171A723C58001EC77D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2B6967AA53E0C37DF4DAECFD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EC33F6309449074314AE6CF7 /* libPods-Flipagram.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4CBCDDF51A723C57001EC77D = {
+			isa = PBXGroup;
+			children = (
+				4CBCDE001A723C58001EC77D /* Flipagram */,
+				4CBCDE1D1A723C58001EC77D /* FlipagramTests */,
+				4CBCDDFF1A723C58001EC77D /* Products */,
+				F25FA6C64AD31637DB468EDB /* Pods */,
+				2B6967AA53E0C37DF4DAECFD /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4CBCDDFF1A723C58001EC77D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4CBCDDFE1A723C57001EC77D /* Flipagram.app */,
+				4CBCDE1A1A723C58001EC77D /* FlipagramTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4CBCDE001A723C58001EC77D /* Flipagram */ = {
+			isa = PBXGroup;
+			children = (
+				4CBCDE2A1A724650001EC77D /* Assets */,
+				4CBCDE051A723C58001EC77D /* AppDelegate.h */,
+				4CBCDE061A723C58001EC77D /* AppDelegate.m */,
+				4CBCDE081A723C58001EC77D /* HomeViewController.h */,
+				4CBCDE091A723C58001EC77D /* HomeViewController.m */,
+				4CBCDE0B1A723C58001EC77D /* ExploreViewController.h */,
+				4CBCDE0C1A723C58001EC77D /* ExploreViewController.m */,
+				4CBCDE0E1A723C58001EC77D /* Main.storyboard */,
+				4CBCDE111A723C58001EC77D /* Images.xcassets */,
+				4CBCDE131A723C58001EC77D /* LaunchScreen.xib */,
+				4CBCDE011A723C58001EC77D /* Supporting Files */,
+				4CBCDE451A72D96A001EC77D /* FGTabBarController.h */,
+				4CBCDE461A72D96A001EC77D /* FGTabBarController.m */,
+				4CBCDE741A72F709001EC77D /* ProfileViewController.h */,
+				4CBCDE751A72F709001EC77D /* ProfileViewController.m */,
+				4CBCDE811A730665001EC77D /* NotificationsViewController.h */,
+				4CBCDE821A730665001EC77D /* NotificationsViewController.m */,
+				4CBCDE841A731AD8001EC77D /* SettingsViewController.h */,
+				4CBCDE851A731AD8001EC77D /* SettingsViewController.m */,
+				4CBCDE871A732576001EC77D /* ApplicationViewController.h */,
+				4CBCDE881A732576001EC77D /* ApplicationViewController.m */,
+				4C0405271A73489E000538FF /* MomentsViewController.h */,
+				4C0405281A73489E000538FF /* MomentsViewController.m */,
+			);
+			path = Flipagram;
+			sourceTree = "<group>";
+		};
+		4CBCDE011A723C58001EC77D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4CBCDE431A72D5CD001EC77D /* Podfile */,
+				4CBCDE021A723C58001EC77D /* Info.plist */,
+				4CBCDE031A723C58001EC77D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4CBCDE1D1A723C58001EC77D /* FlipagramTests */ = {
+			isa = PBXGroup;
+			children = (
+				4CBCDE201A723C58001EC77D /* FlipagramTests.m */,
+				4CBCDE1E1A723C58001EC77D /* Supporting Files */,
+			);
+			path = FlipagramTests;
+			sourceTree = "<group>";
+		};
+		4CBCDE1E1A723C58001EC77D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4CBCDE1F1A723C58001EC77D /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4CBCDE2A1A724650001EC77D /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				4C04052A1A734AD4000538FF /* close.gif */,
+				4C0405251A7339D9000538FF /* back.png */,
+				4CBCDE771A72FD9B001EC77D /* tabs5.png */,
+				4CBCDE781A72FD9B001EC77D /* tabs4.png */,
+				4CBCDE791A72FD9B001EC77D /* tabs2.png */,
+				4CBCDE7A1A72FD9B001EC77D /* tabs3.png */,
+				4CBCDE7B1A72FD9B001EC77D /* tabs1.png */,
+				4CBCDE721A72F41F001EC77D /* intro.png */,
+				4CBCDE5C1A72EA28001EC77D /* arrow.png */,
+				4CBCDE5D1A72EA28001EC77D /* camera.png */,
+				4CBCDE5E1A72EA28001EC77D /* close.png */,
+				4CBCDE5F1A72EA28001EC77D /* facebook.png */,
+				4CBCDE601A72EA28001EC77D /* flipagram-logo.png */,
+				4CBCDE611A72EA28001EC77D /* gear.png */,
+				4CBCDE621A72EA28001EC77D /* lock.png */,
+				4CBCDE631A72EA28001EC77D /* main-img.png */,
+				4CBCDE641A72EA28001EC77D /* refresh.png */,
+				4CBCDE651A72EA28001EC77D /* search.png */,
+				4CBCDE661A72EA28001EC77D /* user.png */,
+				4CBCDE5A1A72E975001EC77D /* images.jpg */,
+				4CBCDE2D1A724659001EC77D /* logo.png */,
+			);
+			name = Assets;
+			sourceTree = "<group>";
+		};
+		F25FA6C64AD31637DB468EDB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				395AF141B6E0B6197DBB0D62 /* Pods-Flipagram.debug.xcconfig */,
+				DF0392F7CF6A8BC647013FED /* Pods-Flipagram.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4CBCDDFD1A723C57001EC77D /* Flipagram */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CBCDE241A723C58001EC77D /* Build configuration list for PBXNativeTarget "Flipagram" */;
+			buildPhases = (
+				41069590C637689BFC61EB5B /* Check Pods Manifest.lock */,
+				4CBCDDFA1A723C57001EC77D /* Sources */,
+				4CBCDDFB1A723C57001EC77D /* Frameworks */,
+				4CBCDDFC1A723C57001EC77D /* Resources */,
+				CD01E23D179CE525CF0E533E /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Flipagram;
+			productName = Flipagram;
+			productReference = 4CBCDDFE1A723C57001EC77D /* Flipagram.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4CBCDE191A723C58001EC77D /* FlipagramTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CBCDE271A723C58001EC77D /* Build configuration list for PBXNativeTarget "FlipagramTests" */;
+			buildPhases = (
+				4CBCDE161A723C58001EC77D /* Sources */,
+				4CBCDE171A723C58001EC77D /* Frameworks */,
+				4CBCDE181A723C58001EC77D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4CBCDE1C1A723C58001EC77D /* PBXTargetDependency */,
+			);
+			name = FlipagramTests;
+			productName = FlipagramTests;
+			productReference = 4CBCDE1A1A723C58001EC77D /* FlipagramTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4CBCDDF61A723C57001EC77D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Translation Exchange, Inc.";
+				TargetAttributes = {
+					4CBCDDFD1A723C57001EC77D = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					4CBCDE191A723C58001EC77D = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 4CBCDDFD1A723C57001EC77D;
+					};
+				};
+			};
+			buildConfigurationList = 4CBCDDF91A723C57001EC77D /* Build configuration list for PBXProject "Flipagram" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4CBCDDF51A723C57001EC77D;
+			productRefGroup = 4CBCDDFF1A723C58001EC77D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4CBCDDFD1A723C57001EC77D /* Flipagram */,
+				4CBCDE191A723C58001EC77D /* FlipagramTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4CBCDDFC1A723C57001EC77D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CBCDE301A724659001EC77D /* logo.png in Resources */,
+				4CBCDE6D1A72EA28001EC77D /* lock.png in Resources */,
+				4CBCDE7D1A72FD9B001EC77D /* tabs4.png in Resources */,
+				4CBCDE801A72FD9B001EC77D /* tabs1.png in Resources */,
+				4CBCDE101A723C58001EC77D /* Main.storyboard in Resources */,
+				4CBCDE7C1A72FD9B001EC77D /* tabs5.png in Resources */,
+				4CBCDE7E1A72FD9B001EC77D /* tabs2.png in Resources */,
+				4CBCDE151A723C58001EC77D /* LaunchScreen.xib in Resources */,
+				4CBCDE6C1A72EA28001EC77D /* gear.png in Resources */,
+				4CBCDE691A72EA28001EC77D /* close.png in Resources */,
+				4CBCDE121A723C58001EC77D /* Images.xcassets in Resources */,
+				4CBCDE6B1A72EA28001EC77D /* flipagram-logo.png in Resources */,
+				4C04052B1A734AD4000538FF /* close.gif in Resources */,
+				4CBCDE6F1A72EA28001EC77D /* refresh.png in Resources */,
+				4CBCDE701A72EA28001EC77D /* search.png in Resources */,
+				4CBCDE5B1A72E975001EC77D /* images.jpg in Resources */,
+				4CBCDE6A1A72EA28001EC77D /* facebook.png in Resources */,
+				4CBCDE681A72EA28001EC77D /* camera.png in Resources */,
+				4CBCDE711A72EA28001EC77D /* user.png in Resources */,
+				4CBCDE6E1A72EA28001EC77D /* main-img.png in Resources */,
+				4CBCDE731A72F41F001EC77D /* intro.png in Resources */,
+				4C0405261A7339D9000538FF /* back.png in Resources */,
+				4CBCDE7F1A72FD9B001EC77D /* tabs3.png in Resources */,
+				4CBCDE671A72EA28001EC77D /* arrow.png in Resources */,
+				4CBCDE441A72D5CD001EC77D /* Podfile in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CBCDE181A723C58001EC77D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		41069590C637689BFC61EB5B /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CD01E23D179CE525CF0E533E /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Flipagram/Pods-Flipagram-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4CBCDDFA1A723C57001EC77D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CBCDE0D1A723C58001EC77D /* ExploreViewController.m in Sources */,
+				4CBCDE071A723C58001EC77D /* AppDelegate.m in Sources */,
+				4C0405291A73489E000538FF /* MomentsViewController.m in Sources */,
+				4CBCDE0A1A723C58001EC77D /* HomeViewController.m in Sources */,
+				4CBCDE891A732576001EC77D /* ApplicationViewController.m in Sources */,
+				4CBCDE861A731AD8001EC77D /* SettingsViewController.m in Sources */,
+				4CBCDE831A730665001EC77D /* NotificationsViewController.m in Sources */,
+				4CBCDE041A723C58001EC77D /* main.m in Sources */,
+				4CBCDE761A72F709001EC77D /* ProfileViewController.m in Sources */,
+				4CBCDE471A72D96A001EC77D /* FGTabBarController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CBCDE161A723C58001EC77D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CBCDE211A723C58001EC77D /* FlipagramTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4CBCDE1C1A723C58001EC77D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4CBCDDFD1A723C57001EC77D /* Flipagram */;
+			targetProxy = 4CBCDE1B1A723C58001EC77D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4CBCDE0E1A723C58001EC77D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4CBCDE0F1A723C58001EC77D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4CBCDE131A723C58001EC77D /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4CBCDE141A723C58001EC77D /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4CBCDE221A723C58001EC77D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4CBCDE231A723C58001EC77D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4CBCDE251A723C58001EC77D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 395AF141B6E0B6197DBB0D62 /* Pods-Flipagram.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_RESOURCE_RULES_PATH = "$(SDKROOT)/ResourceRules.plist";
+				INFOPLIST_FILE = Flipagram/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "494ae9c2-255c-4061-be44-50468d7be39d";
+			};
+			name = Debug;
+		};
+		4CBCDE261A723C58001EC77D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF0392F7CF6A8BC647013FED /* Pods-Flipagram.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: MobTouch Inc (SHZ47SPEXT)";
+				CODE_SIGN_RESOURCE_RULES_PATH = "$(SDKROOT)/ResourceRules.plist";
+				INFOPLIST_FILE = Flipagram/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "494ae9c2-255c-4061-be44-50468d7be39d";
+			};
+			name = Release;
+		};
+		4CBCDE281A723C58001EC77D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FlipagramTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Flipagram.app/Flipagram";
+			};
+			name = Debug;
+		};
+		4CBCDE291A723C58001EC77D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FlipagramTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Flipagram.app/Flipagram";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4CBCDDF91A723C57001EC77D /* Build configuration list for PBXProject "Flipagram" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CBCDE221A723C58001EC77D /* Debug */,
+				4CBCDE231A723C58001EC77D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4CBCDE241A723C58001EC77D /* Build configuration list for PBXNativeTarget "Flipagram" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CBCDE251A723C58001EC77D /* Debug */,
+				4CBCDE261A723C58001EC77D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4CBCDE271A723C58001EC77D /* Build configuration list for PBXNativeTarget "FlipagramTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CBCDE281A723C58001EC77D /* Debug */,
+				4CBCDE291A723C58001EC77D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4CBCDDF61A723C57001EC77D /* Project object */;
+}
